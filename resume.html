@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<metac charset="UTF-8">
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href="#" class="logo">Resume</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+			<div class="content"> 
+				<h2><span>MY ACCOMPLISHMENTS</span></h2>
+				<div class="blog">
+					<ul>
+						<li><a href="https://medium.com/@nishanthvicky30/hey-folks-im-nishanth-61f7ed943e1f">Blog-Virtual Life in Reality!</li>
+						<li><a href="https://medium.com/@nishanthvicky30/my-love-for-cartoons-has-never-changed-through-the-years-cb87423beaa5">Blog-Techie Buddies!</a></li>
+					</ul>
+				</div>
+				<h5><a href="myresume.pdf" download="hello">download resume</a></h5>
+				<h4><span>Phone Number:</span> +918939629161
+					<br><span> Email:</span> nishanthvicky30@hotmail.com</h4>
+			</div>
+			
+		<ul class="sci">
+			<li><a href="https://www.instagram.com/_nish_nth_/?hl=en"><img src="insta.png"></a></li>
+			<li><a href="https://www.linkedin.com/in/nishanth-vigneshwaran-2274601a8/"><img src="linkedin.png"></a></li>
+			<li><a href="https://twitter.com/NishanthPercy"><img src="twitter.png"></a></li>
+		</ul>
+
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.html">Home</li>
+			<li><a href="about.html">About</li>
+			<li><a href="Certificates.html">Certificates</li>
+			<li><a href="#">Resume</li>	
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var sec = document.getElementById("sec");
+			var nav = document.getElementById("navigation");
+			sec.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+	</body>
+</html>

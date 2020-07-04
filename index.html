@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<metac charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href="#" class="logo">home</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+		<div class="content">
+			<h2>Hey there,<br> I'm <span>Nishanth vigneshwaran</span></h2>
+			<p>A tech savvyist and a upcoming full stack web developer. I'm a gamer by passion and developer by profession! ! !</p>
+			<h4><span>Phone Number:</span> +918939629161<span><br>E.mail: </span>nishanthvicky30@hotmail.com</h4>
+		</div>
+		<ul class="sci">
+			<li><a href="https://www.instagram.com/_nish_nth_/?hl=en"><img src="insta.png"></a></li>
+			<li><a href="https://www.linkedin.com/in/nishanth-vigneshwaran-2274601a8/"><img src="linkedin.png"></a></li>
+			<li><a href="https://twitter.com/NishanthPercy"><img src="twitter.png"></a></li>
+		</ul>
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="#">   Home</li>
+			<li><a href="about.html">About</li>
+			<li><a href="Certificates.html">Certificates</li>
+			<li><a href="resume.html">Resume</li>	
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var sec = document.getElementById("sec");
+			var nav = document.getElementById("navigation");
+			sec.classList.toggle('active');
+			nav.classList.toggle('active');
+		}
+	</script>
+	</body>
+</html>
